@@ -58,7 +58,7 @@ h1{
     border: 1px solid #270e63;
     outline: none;
     padding: 5px 8px 5px 8px;
-    -webkit-box-shadow: inset 1px 1px 4px #1b1a5a;
+    box-shadow: inset 1px 1px 4px #1b1a5a;
     background: #5b9ac4;
     width:50%;
   }
