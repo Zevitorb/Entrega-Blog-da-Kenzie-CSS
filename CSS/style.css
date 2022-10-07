@@ -124,6 +124,7 @@ form input{
   margin: 0 10px;
   border-style: none;
   border-radius: 5px;
+  background-color: #1413187a;
 }
 
 form button{
@@ -135,5 +136,8 @@ width: 150px;
 }
 
 form button:hover{
-  background-color: #8680da;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  border: solid 1px white;
 }
