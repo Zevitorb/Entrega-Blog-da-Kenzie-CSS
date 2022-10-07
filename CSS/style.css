@@ -1,6 +1,5 @@
 
 body{
-  border: solid 2px green;
   background-image: linear-gradient(to bottom right, rgb(59, 59, 255), rgb(143, 143, 245));
   height: 100vh;
   text-align: center;
@@ -14,8 +13,8 @@ header{
 }
 
 header img{
-  height: 80px;
-  margin: 20px 40px;
+  height: 60px;
+  margin: 10px 40px;
   padding: 8px;
   background-color: white;
   border-radius: 20px;
@@ -23,73 +22,81 @@ header img{
 
 header h1{
   margin: 30px auto;
-  margin-left: 430px;
-  padding: 30px;
+  margin-left: 500px;
+  padding: 10px;
   text-align: left;
   text-shadow: 0 0 4px #1100ff;
 }
 
 
 main{
-  border: solid 2px black;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  display: block;
-  justify-content: center;
+}
+
+section{
+  display: flex;
+
 }
 
 h2{
-  margin: 30px;
+  margin: 10px;
   padding: 10px;
+  font-size: 22px;
 }
 
 
 article{
-  height: 300px;
+  box-shadow: 5px 10px 18px #3000ddb9;
+  height: 500px;
+  width: 450px;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 
-p{  
-  margin: 10px 400px;
+.artigosBlog p{  
   line-height: 22px;
+  height: 180px;
+  width: 300px;
+  margin: 0 auto;
   font-size: 18px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
+
 
 a{
   border: solid;
   border-radius: 50px;
   padding: 10px;
-  margin: 30px auto;
+  margin: 10px auto;
   width: 100px;
   text-decoration: none;
   color: black;
   font-size: 14px;
   display: block;
+  
 }
 
 a:hover{
   background-color: #8680da;
+  text-shadow: 0 0 4px #1100ff;
 }
 
 span{ 
   margin: 10px;
   padding: 10px;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 h3{
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
   text-align: center;
 }
 
 .newsLetter{
-  border: solid 2px red;
-  height: 200px;
+  height: 100px;
   width: 100%;
   padding: 10px;
   margin: 20px auto;
@@ -124,9 +131,9 @@ margin-left: 5px;
 font-weight: bold;
 border-radius: 5px;
 color:#010005;
-width: 100px;
+width: 150px;
 }
 
 form button:hover{
-background-color: rgb(92, 66, 207);
+  background-color: #8680da;
 }
